@@ -9,14 +9,22 @@
     <title>Random Picker</title>
 </head>
 <body>
-    <textarea id="textarea" placeholder="Enter data pool in the boxes like this" class="col-3 data"></textarea><br>
+    <main>
+        <div id="pool">
+            <input type="text" placeholder="Enter data pool in the boxes like this" class="col-3 data"></input>
+            <button class="col-2" id="addOption">Add Option</button>
+        </div>
 
-    <div class="col-2 position border border-primary ratio ratio-1x1" id="enter"></div>
+        <button class="col-2 position border border-primary" id="enter">Start random selection</button>
 
-    <div id="displaySelection"></div>
+        <br>
     
-    <footer class="bg-secondary-subtle text-center fixed-bottom">
-        <p>Created By: Kamden Birk</p>
-    </footer>
+        <div id="displaySelection"></div>
+    
+        <footer class="bg-secondary-subtle text-center sticky-bottom">
+            <p>Created By: Kamden Birk</p>
+        </footer>
+    </main>
+    <script src="./javascript/script.js"></script>
 </body>
 </html>
